@@ -1,7 +1,11 @@
-import "./App.css";
+import HomeLayout from "./layouts/HomeLayout";
 
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <HomeLayout />
+    </>
+  );
 };
 
 export default App;

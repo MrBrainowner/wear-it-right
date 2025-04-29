@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .retro-red {
+    @apply text-[#ad242c];
+  }
+}
