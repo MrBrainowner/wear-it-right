@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+.marquee p {
+  font-size: 2rem;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.marquee p:nth-child(even) {
+  font-family: Parisienne, cursive;
+}
+
+.marquee {
+  gap: 10rem;
+  padding-left: 10rem;
+  width: max-content;
+  animation: marquee-move-text 30s linear infinite;
+}
+
+@keyframes marquee-move-text {
+  to {
+    transform: translateX(-50%);
+  }
+}
