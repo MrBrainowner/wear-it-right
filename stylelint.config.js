@@ -7,6 +7,7 @@ export default {
     "value-keyword-case": false,
     "color-function-notation": false,
     "alpha-value-notation": false,
-    "at-rule-no-unknown": true,
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": null,
   },
 };
