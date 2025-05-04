@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const NewsLetter = () => {
   return (
-    <div class="max-w-6xl py-10 px-4 sm:px-6 lg:px-8 lg:py-16 mx-auto">
+    <div class="bg-linear-to-b from-retro-red/20 via-transparent w-full  py-10 px-4 sm:px-6 lg:px-8 lg:py-16 mx-auto">
       <div class="max-w-xl text-center mx-auto">
         <div class="mb-5">
           <h2 class="text-2xl font-bold md:text-3xl md:leading-tight dark:text-white">

@@ -1,9 +1,10 @@
 import MainLayout from "../layouts/MainLayout";
+import GuidesSection from "../sections/GuidesSection";
 
 const Guides = () => {
   return (
     <MainLayout>
-      <div></div>
+      <GuidesSection />
     </MainLayout>
   );
 };

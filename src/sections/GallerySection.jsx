@@ -1,5 +1,5 @@
 import "../index.css";
-import GalleryImages from "../components/GalleryImages";
+import images from "../components/Images";
 
 const Gallery = () => {
   return (
@@ -9,7 +9,7 @@ const Gallery = () => {
           <div class="space-y-2">
             <img
               class="w-full h-auto object-cover"
-              src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+              src={images.image2}
               alt="Gallery Masonry Image"
             />
             <img
