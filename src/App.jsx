@@ -1,14 +1,9 @@
-import Landing from "./sections/Landing";
-import Gallery from "./sections/Gallery";
-import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <>
-      <MainLayout>
-        <Landing />
-        <Gallery />
-      </MainLayout>
+      <Home />
     </>
   );
 };

@@ -3,9 +3,11 @@ import Navbar from "../components/Navbar";
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="relative min-h-screen scrollbar-none">
+    <div className="relative h-screen flex flex-col scrollbar-none">
       <Navbar />
-      <main className="min-h-screen">{children}</main>
+      <main className="flex flex-col items-center justify-center flex-1">
+        {children}
+      </main>
       <Footer />
     </div>
   );

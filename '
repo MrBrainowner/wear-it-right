@@ -20,6 +20,7 @@ const Navbar = () => {
           <li>
             <Link to="/wear-it-right/guides">guides</Link>
           </li>
+
           <li>
             <Link to="/wear-it-right/about">about</Link>
           </li>

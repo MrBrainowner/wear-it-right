@@ -9,5 +9,11 @@ export default {
     "alpha-value-notation": false,
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": null,
+    "lightness-notation": {
+      string: "percentage" | "number",
+    },
+    "hue-degree-notation": {
+      string: "angle" | "number",
+    },
   },
 };
