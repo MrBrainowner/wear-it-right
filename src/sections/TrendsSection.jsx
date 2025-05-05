@@ -1,7 +1,7 @@
 import "../index.css";
 import images from "../components/Images";
 
-const Gallery = () => {
+const TrendsSection = () => {
   return (
     <section className="w-full">
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -70,4 +70,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default TrendsSection;

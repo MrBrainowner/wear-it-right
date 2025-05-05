@@ -6,21 +6,15 @@ const Carousel = () => {
 
         <div className="max-w-3xl text-center mx-auto">
           <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-            Now it's easier than ever to build products
+            Elevate Your Style, Define Your Identity
           </h1>
         </div>
 
         <div className="max-w-3xl text-center mx-auto">
           <p className="text-lg text-white/70">
-            Preline is a large open-source project, crafted with Tailwind CSS
-            framework by Hmlstream.
+            Discover the latest trends, timeless tips, and style inspiration to
+            help you dress with confidence and creativity every day.
           </p>
-        </div>
-
-        <div className="text-center">
-          <a className="" href="#">
-            Get started
-          </a>
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
 import MainLayout from "../layouts/MainLayout";
+import TrendsSection from "../sections/TrendsSection";
 const Trends = () => {
   return (
     <MainLayout>
-      <div></div>
+      <TrendsSection />
     </MainLayout>
   );
 };

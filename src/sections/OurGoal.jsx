@@ -5,14 +5,12 @@ const OurGoal = () => {
         <div class="grid gap-12">
           <div>
             <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl dark:text-white">
-              Our vision
+              Our Vision
             </h2>
             <p class="mt-3 text-gray-800 dark:text-neutral-400">
-              For as long as there have been cities, the public square has been
-              a fundamental part of the urban landscape - an open, approachable
-              space to meet and engage with friends and neighbours. Space aims
-              to capture this spirit of bringing people together in an exciting,
-              welcoming environment.
+              To be a trusted source of fashion knowledge that helps people
+              dress with confidence, express themselves creatively, and build
+              personal style through information, guidance, and inspiration.
             </p>
           </div>
 
@@ -30,50 +28,17 @@ const OurGoal = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-                <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-                <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-                <path d="M10 6h4" />
-                <path d="M10 10h4" />
-                <path d="M10 14h4" />
-                <path d="M10 18h4" />
+                <path d="M7 10v12" />
+                <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
               </svg>
               <div class="grow">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                  High quality Co-Living spaces
+                  Style Made Simple
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                  Our fully furnished spaces are designed and purpose-built with
-                  Co-Living in mind, featuring high-end finishes and amenities
-                  that go far beyond traditional apartment buildings.
-                </p>
-              </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-              <svg
-                class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                <circle cx="9" cy="7" r="4" />
-                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-              </svg>
-              <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                  Fostering vibrant communities
-                </h3>
-                <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                  Our passion is bringing people together. Beyond creating
-                  beautiful spaces, we provide shared experiences.
+                  Our content is designed to help you understand fashion in an
+                  approachable, practical way — from timeless basics to modern
+                  trends, all broken down into easy, actionable advice.
                 </p>
               </div>
             </div>
@@ -95,13 +60,39 @@ const OurGoal = () => {
               </svg>
               <div class="grow">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                  Simple and all-inclusive
+                  Inspiring Confidence Through Clothing
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                  We worry about the details so that our residents don't have
-                  to. From our online application process to simple,
-                  all-inclusive billing we aim to make the living experience as
-                  effortless as possible.
+                  We believe fashion is a form of self-expression. Our guides,
+                  tips, and inspiration aim to help you feel more confident in
+                  what you wear — no matter your style or experience level.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-x-5 sm:gap-x-8">
+              <svg
+                class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 10v12" />
+                <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+              </svg>
+              <div class="grow">
+                <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                  Fashion Knowledge at Your Fingertips
+                </h3>
+                <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                  From beginner how-tos to deep style insights, everything on
+                  our site is crafted to educate and inspire. No fluff, no
+                  pressure — just real, helpful fashion information.
                 </p>
               </div>
             </div>

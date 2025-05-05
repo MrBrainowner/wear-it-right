@@ -1,75 +1,28 @@
 const AboutUs = () => {
   return (
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-        <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-gray-800 dark:text-neutral-200">
-          Frequently Asked Questions
-        </h2>
-      </div>
+    <div className="w-full ">
+      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
+        <div className="flex justify-center"></div>
 
-      <div class="max-w-5xl mx-auto">
-        <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
-          <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-              Can I cancel at anytime?
-            </h3>
-            <p class="mt-2 text-gray-600 dark:text-neutral-400">
-              Yes, you can cancel anytime no questions are asked while you
-              cancel but we would highly appreciate if you will give us some
-              feedback.
-            </p>
-          </div>
+        <div className="max-w-3xl text-center mx-auto">
+          <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            About Us
+          </h1>
+        </div>
 
-          <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-              My team has credits. How do we use them?
-            </h3>
-            <p class="mt-2 text-gray-600 dark:text-neutral-400">
-              Once your team signs up for a subscription plan. This is where we
-              sit down, grab a cup of coffee and dial in the details.
-            </p>
-          </div>
-
-          <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-              How does Preline's pricing work?
-            </h3>
-            <p class="mt-2 text-gray-600 dark:text-neutral-400">
-              Our subscriptions are tiered. Understanding the task at hand and
-              ironing out the wrinkles is key.
-            </p>
-          </div>
-
-          <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-              How secure is Preline?
-            </h3>
-            <p class="mt-2 text-gray-600 dark:text-neutral-400">
-              Protecting the data you trust to Preline is our first priority.
-              This part is really crucial in keeping the project in line to
-              completion.
-            </p>
-          </div>
-
-          <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-              Do you offer discounts?
-            </h3>
-            <p class="mt-2 text-gray-600 dark:text-neutral-400">
-              We've built in discounts at each tier for teams. The time has come
-              to bring those ideas and plans to life.
-            </p>
-          </div>
-
-          <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-              What is your refund policy?
-            </h3>
-            <p class="mt-2 text-gray-600 dark:text-neutral-400">
-              We offer refunds. We aim high at being focused on building
-              relationships with our clients and community.
-            </p>
-          </div>
+        <div className="max-w-3xl text-center mx-auto">
+          <p className="text-lg text-justify text-white/70">
+            We’re a digital space built for anyone who wants to understand
+            fashion better — without the noise of trends or pressure to shop.
+            Our goal is to make style simple, approachable, and personal.
+            Through curated guides, timeless tips, and creative inspiration, we
+            aim to help you feel more confident in how you dress — whether
+            you’re just starting your style journey or refining your existing
+            wardrobe. We believe fashion is more than labels or trends — it’s a
+            form of self-expression, and everyone deserves to feel good in what
+            they wear. Our content is made to empower you with knowledge, spark
+            ideas, and encourage thoughtful, intentional style choices.{" "}
+          </p>
         </div>
       </div>
     </div>
