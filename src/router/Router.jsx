@@ -16,7 +16,7 @@ import Footwear from "../pages/Footwear.jsx";
 
 const router = createBrowserRouter([
   { path: "*", element: <Error /> },
-  { path: "wear-it-right/home", element: <App /> },
+  { path: "wear-it-right/", element: <App /> },
   { path: "wear-it-right/gallery", element: <Gallery /> },
   { path: "wear-it-right/about", element: <About /> },
   { path: "wear-it-right/trends", element: <Trends /> },

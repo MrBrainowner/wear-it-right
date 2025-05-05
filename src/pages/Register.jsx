@@ -14,7 +14,7 @@ const Register = () => {
     try {
       registerUser({ email, password });
       alert("Registration successful!");
-      navigate("/login");
+      navigate("/wear-it-right/login");
     } catch (error) {
       alert(error.message); // Shows the error if email already exists
     }

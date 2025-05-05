@@ -14,7 +14,7 @@ const Login = () => {
     try {
       loginUser({ email, password });
       alert("Login successful!");
-      navigate("/"); // Redirect to homepage or dashboard
+      navigate("/wear-it-right/home"); // Redirect to homepage or dashboard
     } catch (error) {
       alert(error.message); // Shows the error if invalid credentials
     }
