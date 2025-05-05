@@ -1,7 +1,7 @@
 import "../styles/marquee.css";
 const TextLoop = () => {
   return (
-    <div className="bg-retro-red relative w-full">
+    <div className="bg-retro-red  w-full">
       <div className="marquee p-3 flex flex-row justify-between">
         <p>Fashion is about confidence wear what makes you feel great!</p>
         <p>

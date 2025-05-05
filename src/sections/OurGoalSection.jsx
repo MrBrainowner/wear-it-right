@@ -1,4 +1,4 @@
-const OurGoal = () => {
+const OurGoalSection = () => {
   return (
     <div class="bg-linear-to-t from-retro-red/20 via-transparent w-full px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div class="max-w-2xl mx-auto">
@@ -103,4 +103,4 @@ const OurGoal = () => {
   );
 };
 
-export default OurGoal;
+export default OurGoalSection;

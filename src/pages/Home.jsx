@@ -1,19 +1,19 @@
-import Landing from "../sections/Landing.jsx";
+import LandingSection from "../sections/LandingSection.jsx";
 import MainLayout from "../layouts/MainLayout.jsx";
 import TextLoop from "../components/TextLoop.jsx";
 import NewsLetter from "../components/NewsLetter.jsx";
-import OurGoal from "../sections/OurGoal.jsx";
-import Carousel from "../sections/Intro.jsx";
-import Features from "../sections/Features.jsx";
+import OurGoalSection from "../sections/OurGoalSection.jsx";
+import IntroSection from "../sections/IntroSection.jsx";
+import FeaturesSection from "../sections/FeaturesSection.jsx";
 
 const Home = () => {
   return (
     <MainLayout>
-      <Landing />
+      <LandingSection />
       <TextLoop />
-      <Carousel />
-      <Features />
-      <OurGoal />
+      <IntroSection />
+      <FeaturesSection />
+      <OurGoalSection />
       <TextLoop />
       <NewsLetter />
     </MainLayout>

@@ -1,7 +1,7 @@
 import MainLayout from "../layouts/MainLayout";
 import { Link } from "react-router-dom";
 
-export default function ErrorPage() {
+const Error = () => {
   return (
     <MainLayout>
       <div className="flex w-full h-screen flex-col items-center justify-center">
@@ -12,4 +12,6 @@ export default function ErrorPage() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export default Error;

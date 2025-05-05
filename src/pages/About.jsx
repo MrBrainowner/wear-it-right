@@ -1,10 +1,10 @@
 import MainLayout from "../layouts/MainLayout";
-import AboutUs from "../sections/AboutUs";
+import AboutUsSection from "../sections/AboutUsSection.jsx";
 
 const About = () => {
   return (
     <MainLayout>
-      <AboutUs />
+      <AboutUsSection />
     </MainLayout>
   );
 };

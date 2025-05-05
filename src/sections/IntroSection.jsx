@@ -1,4 +1,4 @@
-const Carousel = () => {
+const IntroSection = () => {
   return (
     <div className="bg-linear-to-b from-retro-red/20 via-transparent w-full ">
       <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
@@ -21,4 +21,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default IntroSection;

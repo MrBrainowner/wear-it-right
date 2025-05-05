@@ -1,7 +1,7 @@
 import GallerySection from "../sections/GallerySection.jsx";
 import MainLayout from "../layouts/MainLayout";
 
-const GalleryPage = () => {
+const Gallery = () => {
   return (
     <MainLayout>
       <GallerySection />
@@ -9,4 +9,4 @@ const GalleryPage = () => {
   );
 };
 
-export default GalleryPage;
+export default Gallery;
