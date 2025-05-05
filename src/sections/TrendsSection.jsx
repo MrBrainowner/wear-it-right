@@ -9,46 +9,46 @@ const TrendsSection = () => {
           <div class="space-y-2">
             <img
               class="w-full h-auto object-cover"
-              src={images.image2}
+              src={images.trend1}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.street}
+              src={images.trend2}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.street}
-              alt="Gallery Masonry Image"
-            />
-          </div>
-          <div class="space-y-2">
-            <img
-              class="w-full h-auto object-cover"
-              src={images.street}
-              alt="Gallery Masonry Image"
-            />
-            <img
-              class="w-full h-auto object-cover"
-              src={images.image1}
+              src={images.trend3}
               alt="Gallery Masonry Image"
             />
           </div>
           <div class="space-y-2">
             <img
               class="w-full h-auto object-cover"
-              src={images.casual}
+              src={images.trend4}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.classic}
+              src={images.trend5}
+              alt="Gallery Masonry Image"
+            />
+          </div>
+          <div class="space-y-2">
+            <img
+              class="w-full h-auto object-cover"
+              src={images.trend6}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.casual}
+              src={images.trend7}
+              alt="Gallery Masonry Image"
+            />
+            <img
+              class="w-full h-auto object-cover"
+              src={images.trend8}
               alt="Gallery Masonry Image"
             />
           </div>

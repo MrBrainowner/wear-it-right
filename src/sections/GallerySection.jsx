@@ -9,17 +9,17 @@ const Gallery = () => {
           <div class="space-y-2">
             <img
               class="w-full h-auto object-cover"
-              src={images.image2}
+              src={images.bohe2}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.street}
+              src={images.trend3}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.street}
+              src={images.bohe3}
               alt="Gallery Masonry Image"
             />
           </div>
@@ -38,17 +38,17 @@ const Gallery = () => {
           <div class="space-y-2">
             <img
               class="w-full h-auto object-cover"
-              src={images.casual}
+              src={images.trend8}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.classic}
+              src={images.classic3}
               alt="Gallery Masonry Image"
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.casual}
+              src={images.bohe}
               alt="Gallery Masonry Image"
             />
           </div>
@@ -60,7 +60,7 @@ const Gallery = () => {
             />
             <img
               class="w-full h-auto object-cover"
-              src={images.bohe}
+              src={images.classic2}
               alt="Gallery Masonry Image"
             />
           </div>
