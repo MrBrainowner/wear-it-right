@@ -83,6 +83,18 @@ const Navbar = () => {
             </Link>
             <Link
               className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
+              to="/wear-it-right/styles"
+            >
+              Styles
+            </Link>
+            <Link
+              className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
+              to="/wear-it-right/accessories"
+            >
+              Accessories
+            </Link>
+            <Link
+              className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
               to="/wear-it-right/shops"
             >
               Shops
